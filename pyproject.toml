@@ -1,0 +1,11 @@
+[project]
+name = "lunch-money-priced-assets"
+version = "0.1.0"
+description = "Update the balances of assets in your Lunch Money account with prices from Yahoo Finance"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "lunchable",
+    "pydantic>=2.11.1",
+    "yfinance>=0.2.55",
+]
