@@ -3,6 +3,10 @@ name = "lunch-money-priced-assets"
 version = "0.1.0"
 description = "Update the balances of assets in your Lunch Money account with prices from Yahoo Finance"
 readme = "README.md"
+repository = { url = "https://github.com/DouweM/lunch-money-priced-assets", type = "git" }
+authors = [
+    { name="Douwe Maan", email="hi@douwe.me" },
+]
 requires-python = ">=3.13"
 dependencies = [
     "lunchable",

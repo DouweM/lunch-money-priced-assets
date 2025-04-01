@@ -8,7 +8,7 @@ To qualify, an asset's name should be of the format `<label> [<symbol>]: <quanti
 
 ```bash
 # Install uv
-curl -fsSL https://get.uv.dev | sh
+curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Move into cloned directory
 cd path/to/lunch-money-priced-assets
